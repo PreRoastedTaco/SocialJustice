@@ -167,7 +167,7 @@
 	left:0;
 	right: 0;
 	margin: auto;
-	height: 50px;
+	height: 70px;
 	z-index: 1;
 	display: flex;
 	align-items: center;
@@ -199,10 +199,10 @@
 	position: relative;
 }
 .content_box_start > h1 {
-	padding: 50px;
+	padding: 50px 10px 10px 50px;
 }
 .content_box_start > p {
-	padding: 50px;
+	padding: 10px 10px 50px 50px;
 	font-size: 16px;
 }
 .content_box_start > p::first-letter {
@@ -210,7 +210,7 @@
  	color: black;
 }
 .content_box_start > h2 {
-	padding: 50px;
+	padding: 30px 0 5px 50px;
 
 }
 .tableauPlaceholder {
@@ -222,5 +222,71 @@
 	/* padding: 0 0 50px 50px; */
 	/* width: 100%; */
 	width: 100px;
-
+}
+.last_new_h4 {
+    height: 1px;
+    padding: 20px;
+    margin: 40px auto 0 auto;
+}
+hr {
+	width: 200px;
+    height: 2px;
+    margin: 15px auto;
+    background: #fec606;
+}
+/* Economic page */
+.economic_1 {
+	
+}
+.economic_1 > h2 {
+	padding: 40px;
+}
+.economic_1 > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+.economic_1 > p {
+	padding: 40px;
+}
+.right > img {
+	display: block;
+	height: 400px;
+}
+.economic_2 {
+	display: flex;
+	padding: 10px 0 10px 0;
+	background: #D5D8DC;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+.left {
+	width: 60%;
+	padding: 15px;
+}
+.right > img {
+	width: 350px;
+}
+.right > img:hover {
+	box-shadow: 10px 10px 5px grey;
+	transform: scale(1.1)
+}
+/* Gender page */
+.gender {
+	padding: 15px;
+}
+.gender > h1 {
+	text-align: center;
+	padding: 15px;
+}
+.gender_1 {
+	padding: 15px;
+	background: #D5D8DC;
+	margin-bottom: 15px;
+}
+.gender_1 > p {
+	margin: 10px 0 15px 10px;
+	padding: 15px;
+	font-size: 17px;
 }
