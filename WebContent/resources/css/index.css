@@ -1,23 +1,24 @@
 *{	 
-	font-family: Verdana, sans-serif;
+	font-family: "Montserrat",sans-serif;
 	margin: 0;
 	padding: 0;
 	/* box-sizing: border-boxs; */
 }
 
 .footer {
-	background-color: #F8F9FD;
-	position: absolute;
+	background-color: #F8F9FD; //#F8F9FD;
+	/* position: absolute; */
 	bottom: 0;
 	width: 100%;
 	height: 10rem; 
 	align-items: center;
 	clear: both;
 	/* height: 100px; */
-	/* margin-top: -100px; */
+	margin-top: 100px;
 	text-align: center;
 	display: flex;
 	justify-content: center
+
 	
 }
 
@@ -58,6 +59,7 @@
 
 .header_nav{
 	background-color: #F8F9FD;
+	margin-left: 70px;
 	/* justfy-content: space-around; */
 }
 
@@ -88,8 +90,87 @@
 	margin-top: -5px;
 	background: #ECF0F1 ;
 	min-height: 100vh;
-	margin-bottom: -10rem;
+	margin-bottom: 10rem;
 	justify-content: center;
 	margin-left: 20%;
 	margin-right: 20%;
+	position: relative;
+
+}
+.map {
+	/* margin-left: auto;
+	margin-right: auto; */
+	height: 500px;
+	width: 100%;
+}
+
+.content_box {
+	background: #87897D;
+	display: flex;
+	
+}
+
+.content_1 {
+	width: 60%;
+	padding: 20px;
+}
+
+.content_2 {
+	width: 60%;
+	padding: 50px;
+	color: white;
+}
+
+.content_2 > p {
+	padding: 50px;
+}
+
+.content_page {
+	display: flex;
+	padding: 20px;
+}
+.content_page1 {
+	padding: 20px;
+	width: 60%;
+}
+
+.content_page1 {
+	padding: 20px;
+	width: 50%;
+}
+
+.content_page1 > h1 {
+	padding: 20px;
+}
+
+.content_page1 > p {
+	padding: 20px;
+}
+
+.content_page2  {
+	padding: 50px;
+}
+
+.see_more {
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card {
+	margin-top: 10px;
+	width: 30%;
+	margin: 5px;
+}
+
+.card_img {
+	width: 400px;
+	height: 350px;
+}
+
+.footer_more {
+	/* position:absolute; */
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
 }
